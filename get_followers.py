@@ -98,8 +98,8 @@ def get_follower_ids(centre, max_depth=1, current_depth=0, taboo_list=[]):
         fname = os.path.join(FOLLOWING_DIR, screen_name + '.csv')
         friendids = []
 
-        # only retrieve friends of TED... screen names
-        if screen_name.startswith('TED'):
+        # only retrieve friends of AFD Deutschland... screen names
+        if screen_name.startswith('AFD Deutschland'):
             if not os.path.exists(fname):
                 print 'No cached data for screen name "%s"' % screen_name
                 with open(fname, 'w') as outf:
