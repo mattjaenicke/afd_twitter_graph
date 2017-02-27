@@ -1,1 +1,3 @@
-# afd_twitter_graph
+## AFD Twitter Netzwerk Graph
+
+Based on https://github.com/edent/Twitter-Networks.  
